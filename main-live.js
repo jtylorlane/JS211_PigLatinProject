@@ -21,6 +21,8 @@ const pigLatin = (word) => {
         consonantTranslated  = word.slice(1) + word.slice(0,1) + 'ay'
         document.getElementById("pigLatin").innerHTML = response = consonantTranslated
         // return word.slice(1) + word.slice(0,1) + 'ay'
+
+        
         return translated
       }
     
