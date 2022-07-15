@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    background-image: url("pig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+    text-shadow: 2px 2px 2px black;
+   
+    
+}
+
+button {
+    background-color: rgb(222, 16, 187);
+    color: white;
+    border: 0ch;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+input {
+    border-color: rgb(222, 16, 187);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#pigLatin {
+    text-align: center;
+
+}
