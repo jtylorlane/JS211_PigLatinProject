@@ -1,7 +1,6 @@
 body {
     background-color: pink;
     background-image: url("pig.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -15,22 +14,22 @@ h1 {
 }
 
 button {
-    background-color: rgb(222, 16, 187);
+    background-color: pink;
     color: white;
-    border: 0ch;
-    border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    border: 1px;
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
 input {
-    border-color: rgb(222, 16, 187);
+    border-color: pink;
     display: flex;
     justify-content: center;
     margin: auto;
     text-align: center;
+    outline: none;
+
 }
 
 #pigLatin {
